@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wuziqi.love.fantasy.faith">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="信仰"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SettingsActivity"
+            android:label="设置" />
+        <activity
+            android:name=".DeveloperActivity"
+            android:label="开发信息" />
+        <activity
+            android:name=".DecideActivity"
+            android:label="你的决定" />
+        <activity
+            android:name=".WuziqiActivity"
+            android:label="五子棋"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".StudyActivity" />
+        <activity
+            android:name=".YouinmyeyesActivity"
+            android:label="我眼中的你"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".YourdecideActivity"
+            android:label="你的决定"></activity>
+    </application>
+
+</manifest>

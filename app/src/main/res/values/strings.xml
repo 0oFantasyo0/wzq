@@ -1,0 +1,129 @@
+<resources>
+    <string name="app_name">信仰</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to SettingsActivity -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+    <string name="update_log">      -2017-7-20-
+                                            \n1.将滑动菜单中的图形重心调为中心
+                                            \n2.从materialpalette.com/icons获得图标资源
+                                            \n3.新增设置、开发信息、你的决定
+                                            \n4.修复左上角了返回键的BUG
+                                    \n-2017-7-21-
+                                            \n1.将滑动菜单移至toolbar下方
+                                            \n2.增加了背景图
+                                    \n-2017-7-23-
+                                            \n1.将更新日志转移到菜单栏
+                                            \n2.将悬浮按钮的图标更换，并将其功能改为打开滑动菜单
+                                            \n3.调整了背景图片
+                                            \n4.引入了五子棋的源码，正在调试中....
+                                    \n-2017-7-24-
+                                            \n1.五子棋能玩了！虽然很麻烦很简陋的样子就这样凑合吧233
+                                            \n2.修改了五子棋的UI,虽然还是很丑但比原来好看了233
+                                    \n-2017-7-25-
+                                            \n1.又改了改五子棋的UI。。。越改越丑怎么办
+                                            \n2.更改重新开始的方法，修复返回逻辑乱的问题
+                                            \n3.“计时器”改成了一个高端大气上档次低调奢华有内涵的名字——“年轮”（虽然也不怎么好听哈哈哈）
+                                            \n4.年轮开始投入运行，可能会有问题，调试中。。。。
+                                    \n-2017-7-26-
+                                            \n1.适应了新算法，对齐计时器的时间
+                                            \n2.新增误差说明
+                                            \n3.加了个进度条看起来表好像在走的样子
+                                            \n4.把名称都改的丧心病狂233
+                                            \n5.首页最上方加了个进度条可以显示一天的进度（然并卵233）
+                                    \n-2017-7-27-
+                                            \n1.“一锤定音”准备开始实装，增加了两个CardView
+                                    \n-2017-7-28-
+                                            \n1.解决了CardView随机性问题
+                                            \n2.增加了“我眼中的你”“你的决定”两个活动，具体内容还没有实装
+                                    \n-2017-7-30-
+                                            \n1.更换了“我眼中的你”的图片
+                                            \n2.修复了返回键不能用的BUG
+                                            \n3.微调五子棋的UI
+                                            \n4.压缩矫正图片
+                                            \n5.将五子棋套上滑动菜单的壳
+                                            \n6.再次压缩图片，压缩体积
+                                            \n7.“不登大雅”开始实装
+        \n8.源代码已上传到GITHUB，不登大雅近乎完整
+    </string>
+
+    <string name="mode_ready">◎请选择对战模式◎\n（233总觉得好简陋）</string>
+    <string name="player_one_lost">◎◎◎绿棋负◎◎◎\n请重新选择对战模式</string>
+    <string name="player_two_lost">◎◎◎红棋负◎◎◎\n请重新选择对战模式</string>
+    <string name="androidstudio"><u>AndroidStudio</u></string>
+</resources>

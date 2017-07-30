@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/restore"
+            android:title="一日三秋" />
+        <item
+            android:id="@+id/nav_study"
+            android:icon="@drawable/book"
+            android:title="学海无涯" />
+        <item
+            android:id="@+id/nav_game"
+            android:icon="@drawable/wuziqi"
+            android:title="五子连珠" />
+    </group>
+
+    <item android:title="-不可或缺-">
+    <menu>
+        <item
+            android:id="@+id/nav_decide"
+            android:icon="@drawable/decide"
+            android:title="一锤定音" />
+        <item
+            android:id="@+id/nav_developer"
+            android:icon="@drawable/developer"
+            android:title="不登大雅" />
+    </menu>
+</item>
+    <item android:title="-一手一足-">
+        <menu>
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@drawable/settings"
+                android:title="改弦更张" />
+        </menu>
+    </item>
+
+</menu>
