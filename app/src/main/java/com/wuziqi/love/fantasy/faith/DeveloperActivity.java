@@ -59,7 +59,18 @@ public class DeveloperActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent();
                 intent.setAction("android.intent.action.VIEW");
-                Uri content_url = Uri.parse("https://github.com/0oFantasyo0/Faith");
+                Uri content_url = Uri.parse("https://github.com/0oFantasyo0/wzq");
+                intent.setData(content_url);
+                startActivity(intent);
+            }
+        });
+        Button bt_wzqym=(Button)findViewById(R.id.bt_wzqym);
+        bt_wzqym.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent();
+                intent.setAction("android.intent.action.VIEW");
+                Uri content_url = Uri.parse("http://www.apkbus.com/thread-21081-1-1.html");
                 intent.setData(content_url);
                 startActivity(intent);
             }

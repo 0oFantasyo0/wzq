@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\build\\intermediates\\res\\merged\\release\\menu\\wuziqimenu.xml",
+        "source": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\src\\main\\res\\menu\\wuziqimenu.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\build\\intermediates\\res\\merged\\release\\menu\\main.xml",
+        "source": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\build\\intermediates\\res\\merged\\release\\menu\\activity_main_drawer.xml",
+        "source": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
+    }
+]

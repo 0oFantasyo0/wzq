@@ -1,0 +1,122 @@
+[
+    {
+        "merged": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\computer.png",
+        "source": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\src\\main\\res\\drawable-xhdpi\\computer.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\cancel.png",
+        "source": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\src\\main\\res\\drawable-xhdpi\\cancel.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\wuziqi.png",
+        "source": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\src\\main\\res\\drawable-xhdpi\\wuziqi.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\sad.png",
+        "source": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\src\\main\\res\\drawable-xhdpi\\sad.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\circle.png",
+        "source": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\src\\main\\res\\drawable-xhdpi\\circle.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\happy.png",
+        "source": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\src\\main\\res\\drawable-xhdpi\\happy.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\info.png",
+        "source": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\src\\main\\res\\drawable-xhdpi\\info.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\decide.png",
+        "source": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\src\\main\\res\\drawable-xhdpi\\decide.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\opensource.png",
+        "source": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\src\\main\\res\\drawable-xhdpi\\opensource.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\time.png",
+        "source": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\src\\main\\res\\drawable-xhdpi\\time.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\developer.png",
+        "source": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\src\\main\\res\\drawable-xhdpi\\developer.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\balance.png",
+        "source": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\src\\main\\res\\drawable-xhdpi\\balance.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\restore.png",
+        "source": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\src\\main\\res\\drawable-xhdpi\\restore.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\about.png",
+        "source": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\src\\main\\res\\drawable-xhdpi\\about.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\thumbup.png",
+        "source": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\src\\main\\res\\drawable-xhdpi\\thumbup.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\update.png",
+        "source": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\src\\main\\res\\drawable-xhdpi\\update.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\account.png",
+        "source": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\src\\main\\res\\drawable-xhdpi\\account.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\human.png",
+        "source": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\src\\main\\res\\drawable-xhdpi\\human.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\theme.png",
+        "source": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\src\\main\\res\\drawable-xhdpi\\theme.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\drawer_menu.png",
+        "source": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\src\\main\\res\\drawable-xhdpi\\drawer_menu.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\background.png",
+        "source": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\src\\main\\res\\drawable-xhdpi\\background.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\developericon.png",
+        "source": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\src\\main\\res\\drawable-xhdpi\\developericon.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\settings.png",
+        "source": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\src\\main\\res\\drawable-xhdpi\\settings.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\book.png",
+        "source": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\src\\main\\res\\drawable-xhdpi\\book.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\zhiqi.png",
+        "source": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\src\\main\\res\\drawable-xhdpi\\zhiqi.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\update_log.png",
+        "source": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\src\\main\\res\\drawable-xhdpi\\update_log.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\drawermenu.png",
+        "source": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\src\\main\\res\\drawable-xhdpi\\drawermenu.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\restart.png",
+        "source": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\src\\main\\res\\drawable-xhdpi\\restart.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\youinmyeyes.png",
+        "source": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\src\\main\\res\\drawable-xhdpi\\youinmyeyes.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\thumbdown.png",
+        "source": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\src\\main\\res\\drawable-xhdpi\\thumbdown.png"
+    }
+]

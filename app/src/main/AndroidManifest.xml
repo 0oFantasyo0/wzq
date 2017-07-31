@@ -31,14 +31,16 @@
         <activity
             android:name=".WuziqiActivity"
             android:label="五子棋"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".StudyActivity" />
         <activity
             android:name=".YouinmyeyesActivity"
             android:label="我眼中的你"
-            android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".YourdecideActivity"
-            android:label="你的决定"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".YourdecideActivity"
+            android:label="你的决定" />
+        <activity android:name=".ThemeActivity"></activity>
     </application>
 
 </manifest>

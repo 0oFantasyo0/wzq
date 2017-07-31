@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.wuziqi.love.fantasy.faith.MainActivity">
+
+        <TextView
+            android:id="@+id/tw_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Days"
+            android:textSize="75sp"
+            android:layout_below="@+id/textView6"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="63dp"
+            android:text="喜欢上你，已经有"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="天"
+            android:layout_alignBottom="@+id/tw_day"
+            android:layout_toRightOf="@+id/tw_day"
+            android:layout_toEndOf="@+id/tw_day" />
+
+        <TextView
+            android:id="@+id/tw_year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Years"
+            android:textSize="25sp"
+            android:layout_below="@+id/tw_day"
+            android:layout_toLeftOf="@+id/tw_month"
+            android:layout_toStartOf="@+id/tw_month" />
+
+        <TextView
+            android:id="@+id/tw_month"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Months"
+            android:textSize="25sp"
+            android:layout_below="@+id/tw_day"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/tw_dayl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Day"
+            android:textSize="25sp"
+            android:layout_below="@+id/tw_day"
+            android:layout_toRightOf="@+id/tw_month"
+            android:layout_toEndOf="@+id/tw_month" />
+
+        <TextView
+            android:id="@+id/tw_sec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seconds"
+            android:textSize="20sp"
+            android:layout_marginTop="73dp"
+            android:background="@drawable/text_shape"
+            android:textColor="#ffffff"
+            android:layout_below="@+id/tw_hour"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/tw_hour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tw_month"
+            android:layout_centerHorizontal="true"
+            android:text="Time"
+            android:textSize="30sp" />
+
+        <ProgressBar
+            android:id="@+id/pb_time"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/tw_hour"
+            android:layout_alignLeft="@+id/tw_hour"
+            android:layout_alignRight="@+id/tw_hour"
+            android:layout_alignStart="@+id/tw_hour"
+            android:layout_below="@+id/tw_hour" />
+
+        <ProgressBar
+            android:id="@+id/pb_timeprogress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:padding="0dp"
+            android:max="86400" />
+
+</RelativeLayout>

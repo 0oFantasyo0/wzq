@@ -109,6 +109,7 @@ public class WuziqiActivity extends AppCompatActivity
             // Handle the camera action
         } else if (id == R.id.nav_home) {
             Intent intent = new Intent(WuziqiActivity.this, MainActivity.class);
+            overridePendingTransition(0, 0);
             startActivity(intent);
         } else if (id == R.id.nav_decide) {
             Intent intent = new Intent(WuziqiActivity.this, DecideActivity.class);

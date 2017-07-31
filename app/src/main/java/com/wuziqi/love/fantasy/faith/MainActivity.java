@@ -244,6 +244,7 @@ public class MainActivity extends AppCompatActivity
             // Handle the camera action
         } else if (id == R.id.nav_game) {
             Intent intent = new Intent(MainActivity.this, WuziqiActivity.class);
+            overridePendingTransition(0, 0);
             startActivity(intent);
         } else if (id == R.id.nav_decide) {
             Intent intent = new Intent(MainActivity.this, DecideActivity.class);

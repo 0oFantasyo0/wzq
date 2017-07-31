@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_renji"
+        android:title="人机对战"
+        android:icon="@drawable/computer"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_renren"
+        android:title="人人"
+        android:icon="@drawable/human"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_restart"
+        android:title="重置棋盘"
+        android:icon="@drawable/restart"
+        app:showAsAction="ifRoom"/>
+
+
+</menu>

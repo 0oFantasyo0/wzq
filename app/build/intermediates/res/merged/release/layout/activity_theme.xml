@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wuziqi.love.fantasy.faith.ThemeActivity">
+
+    <Button
+        android:id="@+id/bt_pink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_shape"
+        android:drawableLeft="@drawable/circle"
+        android:drawableTint="@color/colorPrimary"
+        android:text="默认粉"
+        android:layout_margin="15dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/bt_red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/bt_pink"
+        android:layout_alignBottom="@+id/bt_pink"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_shape"
+        android:drawableLeft="@drawable/circle"
+        android:drawableTint="#ff1744"
+        android:text="姨妈红" />
+
+    <Button
+        android:id="@+id/bt_purple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_shape"
+        android:drawableLeft="@drawable/circle"
+        android:drawableTint="#d500f9"
+        android:text="基佬紫"
+        android:layout_alignBaseline="@+id/bt_red"
+        android:layout_alignBottom="@+id/bt_red"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="15dp" />
+
+    <Button
+        android:id="@+id/bt_blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_shape"
+        android:drawableLeft="@drawable/circle"
+        android:drawableTint="#2979ff"
+        android:text="校服蓝"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/bt_pink"
+        android:layout_alignLeft="@+id/bt_pink"
+        android:layout_alignStart="@+id/bt_pink" />
+
+    <Button
+        android:id="@+id/bt_green"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_shape"
+        android:drawableLeft="@drawable/circle"
+        android:drawableTint="#ff99cc00"
+        android:text="原谅绿"
+        android:layout_alignBaseline="@+id/bt_orange"
+        android:layout_alignBottom="@+id/bt_orange"
+        android:layout_alignLeft="@+id/bt_purple"
+        android:layout_alignStart="@+id/bt_purple" />
+
+    <Button
+        android:id="@+id/bt_orange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_shape"
+        android:drawableLeft="@drawable/circle"
+        android:drawableTint="#ff9100"
+        android:text="色情黄"
+        android:layout_alignBaseline="@+id/bt_blue"
+        android:layout_alignBottom="@+id/bt_blue"
+        android:layout_alignLeft="@+id/bt_red"
+        android:layout_alignStart="@+id/bt_red" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/bt_orange"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/bt_orange"
+        style="?colorPrimary"/>
+
+</RelativeLayout>
