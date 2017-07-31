@@ -2,19 +2,30 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.wuziqi.love.fantasy.faith"
     android:versionCode="1"
-    android:versionName="雏形-0.0.9-1" >
+    android:versionName="雏形-0.0.9-5" >
 
     <uses-sdk
         android:minSdkVersion="15"
         android:targetSdkVersion="25" />
 
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
     <application
+        android:name="com.wuziqi.love.fantasy.faith.MyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="信仰"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="BUG_HD_SDK_GENERAL_KEY"
+            android:value="e6ce09f4559cb56a719fe57fd1fabf60" />
+
         <activity
             android:name="com.wuziqi.love.fantasy.faith.MainActivity"
             android:label="@string/app_name"

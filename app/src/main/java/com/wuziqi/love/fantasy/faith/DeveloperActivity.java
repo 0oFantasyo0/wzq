@@ -3,14 +3,21 @@ package com.wuziqi.love.fantasy.faith;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
+import android.support.design.widget.Snackbar;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
+
+import im.fir.sdk.FIR;
+import im.fir.sdk.VersionCheckCallback;
 
 public class DeveloperActivity extends AppCompatActivity {
 
@@ -18,6 +25,7 @@ public class DeveloperActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_developer);
+        Utils.changeTheme(this);
         TextView tv_androidstudio=(TextView)findViewById(R.id.tv_androidstudio);
         tv_androidstudio.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -46,11 +54,12 @@ public class DeveloperActivity extends AppCompatActivity {
         bt_up.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent();
+               Intent intent = new Intent();
                 intent.setAction("android.intent.action.VIEW");
                 Uri content_url = Uri.parse("https://fir.im/wzq");
                 intent.setData(content_url);
                 startActivity(intent);
+
             }
         });
         Button bt_os=(Button)findViewById(R.id.bt_os);
@@ -76,8 +85,12 @@ public class DeveloperActivity extends AppCompatActivity {
             }
         });
         //返回按钮
-        ActionBar actionBar = getSupportActionBar();
-        actionBar.setDisplayHomeAsUpEnabled(true);
+        Toolbar toolbar= (Toolbar)findViewById(R.id.tb_dv);
+        setSupportActionBar(toolbar);
+        ActionBar actionBar=getSupportActionBar();
+        if (actionBar !=null){
+            actionBar.setDisplayHomeAsUpEnabled(true);
+        }
         //返回按钮
     }
     //返回按钮

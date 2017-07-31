@@ -120,6 +120,10 @@
         "source": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\src\\main\\res\\drawable-xhdpi\\happy.png"
     },
     {
+        "merged": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi\\wuziqi_lite.png",
+        "source": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\src\\main\\res\\drawable-xhdpi\\wuziqi_lite.png"
+    },
+    {
         "merged": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi\\settings.png",
         "source": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\src\\main\\res\\drawable-xhdpi\\settings.png"
     }

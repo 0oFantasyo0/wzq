@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\7b23f7f68e911382a163e18762bc49843f149e02\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="279f57209ae2a936414d498b2bc0c53410860372">
+        <dex dex="D:\AndroidStudioDemo\WuziqiFaith\Faith\app\build\intermediates\pre-dexed\release\classes_307f78726c539ceca464a75b72011b02e3a29859.jar" />
+    </item>
+
+</items>

@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
 
@@ -21,6 +22,7 @@ public class DecideActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_decide);
+        Utils.changeTheme(this);
 
         CardView cv_you =(CardView)findViewById(R.id.cv_you);
         cv_you.setOnClickListener(new View.OnClickListener(){
@@ -38,8 +40,12 @@ public class DecideActivity extends AppCompatActivity {
             }});
 
         //返回按钮
-        ActionBar actionBar = getSupportActionBar();
-        actionBar.setDisplayHomeAsUpEnabled(true);
+        Toolbar toolbar= (Toolbar)findViewById(R.id.tb_dc);
+        setSupportActionBar(toolbar);
+        ActionBar actionBar=getSupportActionBar();
+        if (actionBar !=null){
+            actionBar.setDisplayHomeAsUpEnabled(true);
+        }
         //返回按钮
     }
     //返回按钮

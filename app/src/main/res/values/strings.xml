@@ -122,10 +122,13 @@
         \n8.源代码已上传到GITHUB，不登大雅近乎完整
         \n-2017-7-31-
         \n1.新增主题界面，正在调试中...
+        \n2.加入了BUGHD的支持...貌似能收集bug233，但是要网络连接
+        \n*主题颜色目前能更改“滑动菜单”，“我眼中的你”滑动到底提示图形的颜色
     </string>
 
     <string name="mode_ready">◎请选择对战模式◎\n（233总觉得好简陋）</string>
     <string name="player_one_lost">◎◎◎绿棋负◎◎◎\n请重新选择对战模式</string>
     <string name="player_two_lost">◎◎◎红棋负◎◎◎\n请重新选择对战模式</string>
     <string name="androidstudio"><u>AndroidStudio</u></string>
+    <string name="firToken">6f3e1d0655ae8f609bd8fbd1a510793e</string>
 </resources>

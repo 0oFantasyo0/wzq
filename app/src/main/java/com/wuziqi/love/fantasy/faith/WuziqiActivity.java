@@ -31,13 +31,14 @@ import static android.R.attr.keycode;
 public class WuziqiActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
-	private Chessboard gameView;
+	private com.wuziqi.love.fantasy.faith.Chessboard gameView;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.drawer_activity_wuziqi);
-        gameView = (Chessboard) findViewById(R.id.snake);
+        Utils.changeTheme(this);
+        gameView = (com.wuziqi.love.fantasy.faith.Chessboard) findViewById(R.id.snake);
         gameView.setTextView((TextView)findViewById(R.id.text));
         TextView tv_wuziqiback=(TextView)findViewById(R.id.tv_wzqback);
         tv_wuziqiback.setOnClickListener(new View.OnClickListener() {

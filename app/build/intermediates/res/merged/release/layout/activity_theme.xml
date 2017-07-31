@@ -5,6 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.wuziqi.love.fantasy.faith.ThemeActivity">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        android:id="@+id/tb_th"
+        app:titleTextColor="@color/cardview_light_background">
+    </android.support.v7.widget.Toolbar>
 
     <Button
         android:id="@+id/bt_pink"
@@ -12,12 +20,14 @@
         android:layout_height="wrap_content"
         android:background="@drawable/button_shape"
         android:drawableLeft="@drawable/circle"
-        android:drawableTint="@color/colorPrimary"
+        android:drawableTint="#E91E63"
         android:text="默认粉"
-        android:layout_margin="15dp"
-        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@+id/tb_th"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="31dp" />
 
     <Button
         android:id="@+id/bt_red"
@@ -86,11 +96,12 @@
 
     <Button
         android:id="@+id/button4"
+        style="?colorPrimary"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignEnd="@+id/bt_orange"
         android:layout_alignParentBottom="true"
         android:layout_alignRight="@+id/bt_orange"
-        style="?colorPrimary"/>
+        android:text="返回"/>
 
 </RelativeLayout>

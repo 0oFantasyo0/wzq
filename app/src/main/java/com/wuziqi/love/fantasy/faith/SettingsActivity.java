@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
@@ -14,6 +15,7 @@ public class SettingsActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_settings);
+        Utils.changeTheme(this);
 
         Button bt_zt=(Button)findViewById(R.id.bt_zt);
         bt_zt.setOnClickListener(new View.OnClickListener(){
@@ -30,8 +32,12 @@ public class SettingsActivity extends AppCompatActivity {
                 startActivity(intent);
             }});
         //返回按钮
-        ActionBar actionBar = getSupportActionBar();
-        actionBar.setDisplayHomeAsUpEnabled(true);
+        Toolbar toolbar= (Toolbar)findViewById(R.id.tb_sz);
+        setSupportActionBar(toolbar);
+        ActionBar actionBar=getSupportActionBar();
+        if (actionBar !=null){
+            actionBar.setDisplayHomeAsUpEnabled(true);
+        }
         //返回按钮
     }
     //返回按钮

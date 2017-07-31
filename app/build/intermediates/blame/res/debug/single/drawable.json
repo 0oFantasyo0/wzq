@@ -1,31 +1,31 @@
 [
     {
-        "merged": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a5f91ba6af4fa18163d8a9bffabc58f6edba9437\\output\\res\\drawable\\abc_btn_check_material.xml"
-    },
-    {
         "merged": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\a5f91ba6af4fa18163d8a9bffabc58f6edba9437\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
     },
     {
-        "merged": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_sync_black_24dp.xml",
-        "source": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\src\\main\\res\\drawable\\ic_sync_black_24dp.xml"
+        "merged": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a5f91ba6af4fa18163d8a9bffabc58f6edba9437\\output\\res\\drawable\\abc_btn_check_material.xml"
     },
     {
         "merged": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\a5f91ba6af4fa18163d8a9bffabc58f6edba9437\\output\\res\\drawable\\abc_edit_text_material.xml"
     },
     {
+        "merged": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_sync_black_24dp.xml",
+        "source": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\src\\main\\res\\drawable\\ic_sync_black_24dp.xml"
+    },
+    {
         "merged": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\a5f91ba6af4fa18163d8a9bffabc58f6edba9437\\output\\res\\drawable\\abc_item_background_holo_light.xml"
     },
     {
-        "merged": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a5f91ba6af4fa18163d8a9bffabc58f6edba9437\\output\\res\\drawable\\abc_ratingbar_material.xml"
-    },
-    {
         "merged": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\a5f91ba6af4fa18163d8a9bffabc58f6edba9437\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a5f91ba6af4fa18163d8a9bffabc58f6edba9437\\output\\res\\drawable\\abc_ratingbar_material.xml"
     },
     {
         "merged": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",

@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:2:1-46:12
+ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:2:1-54:12
 	package
 		ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:3:5-44
 		INJECTED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml
@@ -13,8 +13,28 @@ ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.x
 	android:versionCode
 		INJECTED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml
 		INJECTED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:5:5-78
+	android:name
+		ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:5:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:6:5-75
+	android:name
+		ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:6:22-73
+uses-permission#android.permission.INTERNET
+ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:7:5-66
+	android:name
+		ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:7:22-64
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:8:5-74
+	android:name
+		ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:8:22-72
+uses-permission#android.permission.GET_TASKS
+ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:9:5-67
+	android:name
+		ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:9:22-65
 application
-ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:5:5-44:19
+ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:11:5-52:19
 MERGED from [com.android.support:design:25.1.0] C:\Users\Administrator\.android\build-cache\e24071018949ac998594f8738be4a318bbb1b57a\output\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:appcompat-v7:25.1.0] C:\Users\Administrator\.android\build-cache\a5f91ba6af4fa18163d8a9bffabc58f6edba9437\output\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:animated-vector-drawable:25.1.0] C:\Users\Administrator\.android\build-cache\2ab3a7d98ad8e85e869fe9da93d8a4fd96e057e2\output\AndroidManifest.xml:22:5-20
@@ -29,83 +49,91 @@ MERGED from [com.android.support:support-vector-drawable:25.1.0] C:\Users\Admini
 MERGED from [com.android.support:support-compat:25.1.0] C:\Users\Administrator\.android\build-cache\d47ad1583660ff112c2e1d76c35ac74761482c40\output\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:cardview-v7:25.1.0] C:\Users\Administrator\.android\build-cache\17bb59507d0956619a713e3e3c5d52e0bdef0298\output\AndroidManifest.xml:22:5-20
 	android:label
-		ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:8:9-27
+		ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:15:9-27
 	android:supportsRtl
-		ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:17:9-35
 	android:roundIcon
-		ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:9:9-54
+		ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:16:9-54
 	android:allowBackup
-		ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:13:9-35
 	android:icon
-		ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:14:9-43
 	android:theme
-		ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:11:9-40
+		ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:18:9-40
+	android:name
+		ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:12:9-38
+meta-data#BUG_HD_SDK_GENERAL_KEY
+ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:19:9-109
+	android:value
+		ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:19:20-68
+	android:name
+		ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:19:69-106
 activity#com.wuziqi.love.fantasy.faith.MainActivity
-ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:12:9-21:20
+ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:20:9-29:20
 	android:label
-		ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:14:13-45
+		ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:22:13-45
 	android:theme
-		ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:15:13-56
+		ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:23:13-56
 	android:name
-		ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:13:13-41
+		ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:21:13-41
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:16:13-20:29
+ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:24:13-28:29
 action#android.intent.action.MAIN
-ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:17:17-69
+ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:25:17-69
 	android:name
-		ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:17:25-66
+		ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:25:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:19:17-77
+ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:27:17-77
 	android:name
-		ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:19:27-74
+		ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:27:27-74
 activity#com.wuziqi.love.fantasy.faith.SettingsActivity
-ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:22:9-24:34
+ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:30:9-32:34
 	android:label
-		ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:24:13-31
+		ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:32:13-31
 	android:name
-		ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:23:13-45
+		ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:31:13-45
 activity#com.wuziqi.love.fantasy.faith.DeveloperActivity
-ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:25:9-27:36
+ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:33:9-35:36
 	android:label
-		ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:27:13-33
+		ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:35:13-33
 	android:name
-		ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:26:13-46
+		ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:34:13-46
 activity#com.wuziqi.love.fantasy.faith.DecideActivity
-ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:28:9-30:36
+ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:36:9-38:36
 	android:label
-		ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:30:13-33
+		ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:38:13-33
 	android:name
-		ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:29:13-43
+		ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:37:13-43
 activity#com.wuziqi.love.fantasy.faith.WuziqiActivity
-ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:31:9-34:59
+ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:39:9-42:59
 	android:label
-		ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:33:13-32
+		ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:41:13-32
 	android:theme
-		ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:34:13-56
+		ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:42:13-56
 	android:name
-		ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:32:13-43
+		ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:40:13-43
 activity#com.wuziqi.love.fantasy.faith.StudyActivity
-ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:35:9-51
-	android:name
-		ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:35:19-48
-activity#com.wuziqi.love.fantasy.faith.YouinmyeyesActivity
-ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:36:9-39:59
-	android:label
-		ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:38:13-34
-	android:theme
-		ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:39:13-56
-	android:name
-		ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:37:13-48
-activity#com.wuziqi.love.fantasy.faith.YourdecideActivity
-ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:40:9-42:36
-	android:label
-		ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:42:13-33
-	android:name
-		ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:41:13-47
-activity#com.wuziqi.love.fantasy.faith.ThemeActivity
-ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:43:9-60
+ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:43:9-51
 	android:name
 		ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:43:19-48
+activity#com.wuziqi.love.fantasy.faith.YouinmyeyesActivity
+ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:44:9-47:59
+	android:label
+		ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:46:13-34
+	android:theme
+		ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:47:13-56
+	android:name
+		ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:45:13-48
+activity#com.wuziqi.love.fantasy.faith.YourdecideActivity
+ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:48:9-50:36
+	android:label
+		ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:50:13-33
+	android:name
+		ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:49:13-47
+activity#com.wuziqi.love.fantasy.faith.ThemeActivity
+ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:51:9-60
+	android:name
+		ADDED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml:51:19-48
 uses-sdk
 INJECTED from D:\AndroidStudioDemo\WuziqiFaith\Faith\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:design:25.1.0] C:\Users\Administrator\.android\build-cache\e24071018949ac998594f8738be4a318bbb1b57a\output\AndroidManifest.xml:21:5-23:62
@@ -122,6 +150,7 @@ MERGED from [com.android.support:support-core-utils:25.1.0] C:\Users\Administrat
 MERGED from [com.android.support:support-vector-drawable:25.1.0] C:\Users\Administrator\.android\build-cache\3655cad5288b3e8489e1f06085dbf906740f9b65\output\AndroidManifest.xml:21:5-43
 MERGED from [com.android.support:support-compat:25.1.0] C:\Users\Administrator\.android\build-cache\d47ad1583660ff112c2e1d76c35ac74761482c40\output\AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:cardview-v7:25.1.0] C:\Users\Administrator\.android\build-cache\17bb59507d0956619a713e3e3c5d52e0bdef0298\output\AndroidManifest.xml:20:5-43
+MERGED from [im.fir:fir-sdk:1.3.7] C:\Users\Administrator\.android\build-cache\7b23f7f68e911382a163e18762bc49843f149e02\output\AndroidManifest.xml:6:5-8:41
 	tools:overrideLibrary
 		ADDED from [com.android.support:design:25.1.0] C:\Users\Administrator\.android\build-cache\e24071018949ac998594f8738be4a318bbb1b57a\output\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion

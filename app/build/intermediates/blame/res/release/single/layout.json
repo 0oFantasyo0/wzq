@@ -12,12 +12,12 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\a5f91ba6af4fa18163d8a9bffabc58f6edba9437\\output\\res\\layout\\select_dialog_multichoice_material.xml"
     },
     {
-        "merged": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_screen_toolbar.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a5f91ba6af4fa18163d8a9bffabc58f6edba9437\\output\\res\\layout\\abc_screen_toolbar.xml"
-    },
-    {
         "merged": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\build\\intermediates\\res\\merged\\release\\layout\\design_navigation_item.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\e24071018949ac998594f8738be4a318bbb1b57a\\output\\res\\layout\\design_navigation_item.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_screen_toolbar.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\a5f91ba6af4fa18163d8a9bffabc58f6edba9437\\output\\res\\layout\\abc_screen_toolbar.xml"
     },
     {
         "merged": "D:\\AndroidStudioDemo\\WuziqiFaith\\Faith\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_developer.xml",
